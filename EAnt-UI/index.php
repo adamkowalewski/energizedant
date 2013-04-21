@@ -75,7 +75,7 @@
 
             </div>
             <footer>
-                <span>2013 Adam Kowalewski</span>
+                <span>2013 spaceappschallenge (Adam & Jesus)</span>
             </footer>
         </div>
 
