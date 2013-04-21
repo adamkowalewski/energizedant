@@ -1,0 +1,126 @@
+/* 
+    Project    : EnergizedAnt
+    Document   : eant-style
+    Created on : 20.04.2013, 22:09:03
+    Author     : KOWALEWSKI, Adam
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    margin: 0px 0px 50px 0px;    
+    background-color: #EBEBEB;    
+}
+
+#wrapper {
+    background-color: #fff;
+    margin: 0 auto;    
+    border: 1px solid #ccc;
+    max-width: 1080px;        
+}
+
+header {
+    background-color: #4da74d;
+}
+
+header h1{
+    margin: 40px 0px 0px 20px;
+    color: #fff;
+    float: left;
+}
+
+header #menu{
+    margin-top: 43px;
+    float: right;
+}
+
+header #menu a {
+    float: left;
+    display: block;
+    font-size: 1.5em;
+    padding: 5px;
+}
+header #menu a:link{
+    color: #000;
+    text-decoration: none;
+}
+
+header #menu a:hover{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+#content {
+
+}
+
+#content #uinput{    
+    min-height: 100px;
+}
+
+#content #data{
+    padding: 5px;
+    min-height: 200px;
+}
+
+footer{
+    text-align: right;
+    padding: 10px;
+    height: 20px;
+    background-color:  #4da74d;
+}
+
+.chart {
+    margin: 5px;
+    width: 500px;
+    height: 400px;    
+}
+
+.right{
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*
+    Tested with Galaxy S2 & eee Transformer    
+*/
+@media screen and (max-width: 1082px){
+
+
+    header h1{
+        margin: 2%;
+        color: #abb;
+        float: none;
+    }
+
+    header #menu{
+        margin-top: 2%;
+        float: none;
+    }
+
+    .chart {
+        margin: 15px 0px;
+        padding: 0px;
+        width: 99%;
+        height: 400px;    
+    }
+
+    .right{
+        float: none;
+    }
+
+    .left {
+        float: none;
+    }
+}
