@@ -28,19 +28,31 @@
             <div id="content">
                 <div id="uinput" style="margin: 0 auto;">
                     <form action="index.php?do=calc" method="POST">
+                        <img class="home" 
+                             src="images/home_32x32.png"/>
+                        <img class="battery" 
+                             src="images/battery_32x32.png" />
                         <p>Enter your address</p>
+
                         <input type="text" name="i_address" value="" 
                                style="width: 80%; font-size: 20px; padding: 5px 5px 5px 40px; "/>
-                        <p>Enter your annual power consumption</p>
-                        <input type="text" name="i_consumption" value="" />
-                        <input type="submit" value="Calculate" />
+                        <p>Enter your annual power consumption in kWh</p>
+                        <input type="text" name="i_consumption" value="" 
+                               style="width: 200px; font-size: 20px; padding: 5px 5px 5px 40px; " />
+                        <input type="submit" value="Calculate" 
+                               style="width: 200px; margin: 5px; padding: 5px; font-size: 20px;" />
                     </form>
 
                 </div>
-
-                <div id="chartl" class="chart left"></div>
-
-                <div id="chartr" class="chart right"></div>
+                <div class="left">
+                    <p style="margin-top: 50px;">Your estimated annual Energy income compared to a generic 
+                        modern refridgerator</p>
+                    <div id="chartl" class="chart"></div>
+                </div>
+                <div class="right">
+                    <p style="margin-top: 50px;">Your estimated personal energy mix</p>
+                    <div id="chartr" class="chart"></div>
+                </div>
 
                 <div class="clear"></div>
                 <div id="data">                                        
@@ -50,15 +62,15 @@
                         presentet above he will be interesetet to get more information 
                         about RE and about features available on this site.
                     </p>
-                    
+
                     <h2>My Dashboard</h2> 
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
                     <h2>Regional comparison</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
                     <h2>ROI calculator</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
-                    
-                    
+
+
                 </div>
 
             </div>

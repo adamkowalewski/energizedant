@@ -32,15 +32,15 @@ header h1{
 }
 
 header #menu{
-    margin-top: 43px;
+    margin-top: 46px;
     float: right;
 }
 
 header #menu a {
     float: left;
     display: block;
-    font-size: 1.5em;
-    
+    font-size: 1.2em;
+
     padding: 5px 15px;
 }
 header #menu a:link{
@@ -85,25 +85,47 @@ footer{
     text-align: right;
     padding: 10px;
     height: 20px;
-    background-color:  #4da74d;
+    background-color: #4da74d;
 }
 
 .chart {
     margin: 5px;
-    width: 500px;
+    width: 450px;
     height: 400px;    
 }
 
 .right{
     float: right;
+    max-width: 470px;    
 }
 
 .left {
     float: left;
+    max-width: 470px;
 }
 
 .clear {
     clear: both;
+}
+
+.home{
+    width:32px; 
+    height: 32px;  
+    position: relative; 
+    opacity:0.7; 
+    left:8px; 
+    top:90px; 
+    z-index:10;
+}
+
+.battery{
+    width:32px; 
+    height: 32px;  
+    position: relative; 
+    opacity:0.7; 
+    left:-30px; 
+    top:188px; 
+    z-index:10;
 }
 
 
@@ -124,6 +146,12 @@ footer{
         float: none;
     }
 
+    #content #data{  
+        margin-top: 20px;
+        padding: 30px 5px;
+        min-height: 200px;
+    }
+
     .chart {
         margin: 15px 0px;
         padding: 0px;
@@ -137,5 +165,14 @@ footer{
 
     .left {
         float: none;
+    }
+    .battery{
+        width:32px; 
+        height: 32px;  
+        position: relative; 
+        opacity:0.7; 
+        left:-30px; 
+        top:195px; 
+        z-index:10;
     }
 }
