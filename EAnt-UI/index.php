@@ -28,7 +28,9 @@
             <div id="content">
                 <div id="uinput">
                     <form action="index.php?do=calc" method="POST">
+                        <p>Enter your address</p>
                         <input type="text" name="i_address" value="" name="test mal" />
+                        <p>Enter your annual power consumption</p>
                         <input type="text" name="i_consumption" value="" />
                         <input type="submit" value="Calculate" />
                     </form>
